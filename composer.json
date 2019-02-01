@@ -1,0 +1,12 @@
+{
+    "name": "kercode/tests-unitaires",
+    "authors": [
+        {
+            "name": "Stessie",
+            "email": "enjoyyl@outlook.fr"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
