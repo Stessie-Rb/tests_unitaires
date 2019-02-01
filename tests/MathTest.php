@@ -6,6 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class MathTest extends TestCase{
     public function testDouble(){
-        $this->assertEquals(4, Math::double(4));
+        $this->assertEquals(4, Math::double(2));
     }
 }
