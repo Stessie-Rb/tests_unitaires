@@ -1,7 +1,7 @@
 <?php
-use Symfony\Component\Yaml\yaml;
+/*use Symfony\Component\Yaml\yaml;
 
-/*class KercodeScore
+class KercodeScore
 {
 
     public static function Score($hero, $adversaire )
@@ -22,12 +22,11 @@ use Symfony\Component\Yaml\yaml;
 }*/
    class Saison
    {
-       public static function IsValid($number)
+       public function __construct($matchs){
+           $this->matchs= $matchs;
+       }
+       public function IsValid()
        {
-           if ($number <= 10) {
-               return true;
-           } else {
-               return false;
-           }
+           return count($this->matchs)==10;
        }
    }
